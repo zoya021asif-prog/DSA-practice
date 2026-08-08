@@ -7,14 +7,14 @@ int main(){
     cin>>num;
     
     if(num > 0 ){
-        cout<<"Positive"<<endl;
+        cout<<"The Number is positive"<<num<<endl;
 
     }
     else if(num < 0){
-        cout<<"Negative"<<endl;
+        cout<<"The Number is negative"<<num<<endl;
     }
     else{
-        cout<<"Zero"<<endl;
+        cout<<"The Number is zero"<<num<<endl;
     }
     return 0;
 }
