@@ -1,21 +1,28 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main() {
     int n;
-    cout<<"Enter a number:";
-    cin>>n;
-    for(int  i = 0; i < n; i++){
-        for(int j = 0; j < 1; j++){
-            cout<<" ";
+    cout << "Enter a number: ";
+    cin >> n;
+
+    for (int i = 0; i < n; i++) {
+
+        // Spaces
+        for (int j = 0; j < i; j++) {
+            cout << " ";
         }
-        for(int j = 0; j<2*n - (2*i + 1); j++ ){
-            cout<<"*";
+
+        // Stars
+        for (int j = 0; j < 2 * n - (2 * i + 1); j++) {
+            cout << "*";
         }
-        for(int j = 0; j < 1; j++){
-            cout<<" ";
-        }
-        cout<<endl;
+
+        cout << endl;
+       
     }
+ 
     return 0;
 }
+
+   
