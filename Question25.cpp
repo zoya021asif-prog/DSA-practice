@@ -12,8 +12,9 @@ int main(){
         revnum = (revnum*10) + ld;
         n = n / 10;
     }
-    if(dup == revnum)
-       cout<<"true";
-    else cout <<"false";
-    return 0;
+    cout<<revnum;
+    //if(dup == revnum)
+    //   cout<<"true";
+    //else cout <<"false";
+    //return 0;
 }
