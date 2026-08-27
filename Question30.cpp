@@ -2,7 +2,7 @@
 using namespace std;
 //print name n times using recursion
 
-    void printname(int i, int n){
+    void printname(int i , int n){
         if (i > n){
             return;
         }
