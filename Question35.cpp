@@ -5,7 +5,7 @@ void printNumbers(int i ){
        return;
     }
     printNumbers(i - 1);
-    cout<< i << " ";
+    cout<< i << endl;
     
 }
 int main(){
