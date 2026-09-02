@@ -8,7 +8,7 @@ int main(){
     int sum = 0;
     while(n > 0){
         int lastdigit = n % 10;
-        sum = sum + ( lastdigit * lastdigit * lastdigit);
+        sum = sum + ( lastdigit * lastdigit * lastdigit); 
         n = n / 10;
     }
     if(dup == sum){
